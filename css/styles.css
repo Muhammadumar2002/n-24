@@ -491,19 +491,24 @@ border-bottom: 1px solid #d2d2d2
   display: flex;
 }
 
+.sidebar-list-ad-img{
+  width: 393px;
+  height: 553px;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
 .sidebar-ad-img{
   width: 393px;
   height: 338px;
   object-fit: cover;
   border-radius: 15px;
-}
+}  
 
 /* SITE-FOOTER */
 
 .site-footer{
   background-color:#7297EF;
-
-
 }
 .site-footer-container {
     max-width: 1038px;
