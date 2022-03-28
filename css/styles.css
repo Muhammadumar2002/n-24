@@ -616,6 +616,11 @@ color: #000;
   align-self: flex-end;
 }
 
+.contact-page-info{
+  width: 494px;
+  margin-left: 10px;
+}
+
 /* FORM */
 .form-groups-wrapper{
   display: flex;
@@ -643,7 +648,33 @@ margin-bottom: 10px;
   min-height: 180px;
   resize: vertical;
 }
-.button {
+
+/* Defenition-Card */
+
+.contact-page-defenition-card {
 }
-.button-primary {
+.definition-card {
+  background-color: #f6f6f6;
+  color: #000;
+  padding: 20px 25px;
+  border-radius: 0%;
+  margin:0;
+}
+.defenition-card-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.defenition-card-item:not(:last-child){
+  border-bottom: 1px solid #d2d2d2;
+}
+.definition-card-title {
+  margin-bottom: 7px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+.definition-card-value {
+  margin: 0;
+  font-size: 16px;
+  line-height: 19px;
 }
