@@ -303,6 +303,7 @@ margin-right: 25px;
 /* NOTIFICATION-CTA */
 
 .notification-cta {
+  background: url(../img/notification.png);
   display: flex;
   align-items: center;
   border-radius: 10px;
